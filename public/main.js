@@ -24,7 +24,7 @@ function getUserIdFromToken() {
   const token = localStorage.getItem("token"); // Retrieve the token from localStorage
   if (!token) {
     alert("You are not logged in!");
-    return null;
+    return null;// Retrieve the token from localStorage
   }
 
   try {
